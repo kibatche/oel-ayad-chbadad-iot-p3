@@ -6,7 +6,7 @@ spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
-    matachLabels:
+    matchLabels:
       app: wil-app
   template:
     metadata:
