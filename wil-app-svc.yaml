@@ -4,7 +4,7 @@ metadata:
   name: wil-app-svc
 spec:
   ports:
-  - port: 8888
+  - port: 8887
     targetPort: 8888
   selector:
     app: wil-app
